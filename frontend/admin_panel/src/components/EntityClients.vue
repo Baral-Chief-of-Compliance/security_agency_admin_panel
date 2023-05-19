@@ -2,6 +2,8 @@
     <v-container>
         <div class="text-h3 py-6 mx-10 text-left">Юридические лица</div>
 
+
+
         <div class="py-6 mx-10 d-flex justify-center" >
             <v-col>
                 <div v-for="ent in entity_clients">

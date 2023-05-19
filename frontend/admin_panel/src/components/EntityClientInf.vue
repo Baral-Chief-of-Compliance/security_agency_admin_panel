@@ -3,6 +3,10 @@
     <v-container>
         <div class="text-h3 py-6 mx-10 text-left">Информация о юридическом лице</div>
 
+        <v-btn  variant="outlined" class="mx-10" :to="{name: 'EntityClients'}">
+            <v-icon icon="mdi-arrow-collapse-left" color="grey-darken-4" class="mr-2"></v-icon>назад
+        </v-btn>
+
         <v-container class="d-flex justify-center">
 
             <v-col>

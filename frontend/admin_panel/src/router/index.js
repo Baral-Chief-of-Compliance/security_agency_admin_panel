@@ -21,6 +21,11 @@ const routes = [
 
       },
       {
+        path: '/security_objects/:id',
+        name: 'SecurityObjectInf',
+        component: ()=> import('@/components/SecurityObjectInf.vue')
+      },
+      {
         path: '/add_client',
         name: 'AddClient',
         component: ()=> import('@/components/AddClient.vue')

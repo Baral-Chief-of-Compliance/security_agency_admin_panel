@@ -72,7 +72,7 @@
       clients:[
         ['Физ лица', 'mdi-account', ''],
         ['Юр лица', 'mdi-account-multiple', ''],
-        ['Добавить', 'mdi-account-plus', ''],
+        ['Добавить', 'mdi-account-plus', '/add_client'],
       ],
     }),
   }

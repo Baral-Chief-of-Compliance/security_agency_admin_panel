@@ -19,6 +19,11 @@ const routes = [
         name: 'ObjectsOfProtection',
         component: ()=> import('@/components/ObjectsOfProtection.vue')
 
+      },
+      {
+        path: '/add_client',
+        name: 'AddClient',
+        component: ()=> import('@/components/AddClient.vue')
       }
 
     ],

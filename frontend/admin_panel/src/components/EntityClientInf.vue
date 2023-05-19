@@ -51,6 +51,7 @@
                             <v-card  class="my-2 pa-6 mx-14 d-flex flex-row"
                                 v-bind="props"
                                 :color="isHovering ? 'grey-darken-4': undefined"
+                                :to="{ name: 'SecurityObjectEntityInf', params: {id: 1}}"
                             >
 
                                 <b class="pr-2">Город: </b>  

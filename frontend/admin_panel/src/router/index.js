@@ -26,6 +26,11 @@ const routes = [
         component: ()=> import('@/components/SecurityObjectEntityInf.vue')
       },
       {
+        path: '/security_objects_entity/:id/documents',
+        name: 'SecurityObjectEntityDocuments',
+        component: ()=> import('@/components/SecurityObjectEntityDocuments.vue')
+      },
+      {
         path: '/security_objects_phys/:id',
         name: 'SecurityObjectPhysInf',
         component: ()=> import('@/components/SecurityObjectPhysInf.vue')

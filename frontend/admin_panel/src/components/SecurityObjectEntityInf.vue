@@ -2,7 +2,7 @@
     <v-container>
         <div class="text-h3 py-6 mx-10 text-left">Информация об объекте охраны</div>
 
-        <v-btn  variant="outlined" class="mx-10" :to="{name: 'EntityClients'}">
+        <v-btn  variant="outlined" class="mx-10" :to="{name: 'SecurityObjectEntityDocuments', params: {id: 1}}">
             <v-icon icon="mdi-file-document" color="grey-darken-4" class="mr-2"></v-icon>Договоры
         </v-btn>
 

@@ -24,6 +24,26 @@ const routes = [
         path: '/add_client',
         name: 'AddClient',
         component: ()=> import('@/components/AddClient.vue')
+      },
+      {
+        path: '/phys_clients',
+        name: 'PhysClients',
+        component: ()=> import('@/components/PhysClients.vue')
+      },
+      {
+        path: '/phys_clients/:id',
+        name: 'PhysClientInf',
+        component: ()=> import('@/components/PhysClientInf.vue')
+      },
+      {
+        path: '/entity_clients',
+        name: 'EntityClients',
+        component: ()=> import('@/components/EntityClients.vue')
+      },
+      {
+        path: '/entity_clients:id',
+        name: 'EntityClientInf',
+        component: ()=> import('@/components/EntityClientInf.vue')
       }
 
     ],

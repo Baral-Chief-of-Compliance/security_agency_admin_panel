@@ -70,8 +70,8 @@
         ['Посмотреть', 'mdi-home-map-marker', '']
       ],
       clients:[
-        ['Физ лица', 'mdi-account', ''],
-        ['Юр лица', 'mdi-account-multiple', ''],
+        ['Физ лица', 'mdi-account', '/phys_clients'],
+        ['Юр лица', 'mdi-account-multiple', '/entity_clients'],
         ['Добавить', 'mdi-account-plus', '/add_client'],
       ],
     }),

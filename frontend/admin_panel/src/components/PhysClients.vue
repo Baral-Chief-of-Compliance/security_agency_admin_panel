@@ -49,26 +49,26 @@ export default{
             return{
                 phys_clients: [
                     {
-                        surname: "да",
-                        name: "да",
-                        patronymic: "",
-                        phone: "",
-                        town: "",
-                        street: "",
-                        house: "",
-                        frame: "",
-                        apartment: ""
+                        surname: "Дроздова",
+                        name: "Варвара",
+                        patronymic: "Гпигорьевна",
+                        phone: "+79985057816",
+                        town: "Мурманск",
+                        street: "Кольский проспект",
+                        house: "91",
+                        frame: "1",
+                        apartment: "30"
                     },
                     {
-                        surname: "да",
-                        name: "да",
-                        patronymic: "",
-                        phone: "",
-                        town: "",
-                        street: "",
-                        house: "",
-                        frame: "",
-                        apartment: ""
+                        surname: "Козлов",
+                        name: "Никодим",
+                        patronymic: "Иванович",
+                        phone: "+79477050242",
+                        town: "Поречье",
+                        street: "Хлыновский",
+                        house: "79",
+                        frame: "2",
+                        apartment: "777"
                     }
                 ]
             }

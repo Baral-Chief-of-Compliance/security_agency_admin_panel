@@ -67,7 +67,7 @@
         ['Список', 'mdi-garage-open', '/objects_of_protection']
       ],
       orders:[
-        ['Посмотреть', 'mdi-home-map-marker', '']
+        ['Посмотреть', 'mdi-home-map-marker', '/map']
       ],
       clients:[
         ['Физ лица', 'mdi-account', '/phys_clients'],

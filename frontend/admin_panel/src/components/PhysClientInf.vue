@@ -83,7 +83,7 @@
 
                 <v-row class="mx-14 mt-15">
                     <v-btn 
-                        color="green-accent-4" 
+                        color="grey-darken-4" 
                         size="x-large" 
                         block
                         @click="add_client"
@@ -132,20 +132,20 @@
         data(){
             return{
                 phys: {
-                    surname: 'кто',
-                    name: '',
-                    patronymic: '',
-                    phone: '',
-                    town: '',
-                    street: '',
-                    house: '',
-                    frame: '',
-                    apartment: '',
+                    surname: "Дроздова",
+                    name: "Варвара",
+                    patronymic: "Гпигорьевна",
+                    phone: "+79985057816",
+                    town: "Мурманск",
+                    street: "Кольский проспект",
+                    house: "91",
+                    frame: "1",
+                    apartment: "30",
                     security_objects: [
                         {
-                            town: '',
-                            street: '',
-                            house: '',
+                            town: 'Мурманск',
+                            street: 'Кольский',
+                            house: '91',
                             frame: '1'
                         }
                     ]

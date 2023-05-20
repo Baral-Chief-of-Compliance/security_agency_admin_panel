@@ -11,7 +11,7 @@
 
             <v-col>
                 <div>
-                    <span class="text-h5 my-2 pa-6 mx-14">ФИО</span>
+                    <span class="text-h5 my-2 pa-6 mx-14">ФИО и должность</span>
                     <v-card class="my-2 pa-6 mx-14 d-flex flex-row">
 
                         <b class="pr-2">Фамилия: </b>  {{ entity.surname }} 
@@ -21,8 +21,11 @@
                         <v-spacer></v-spacer>  
 
                         <b class="pr-2">Отчество:</b>  {{ entity.patronymic }} 
+                        <v-spacer></v-spacer> 
+                        <b class="pr-2">Должность:</b> {{ entity.role }} 
                     </v-card>
                 </div>
+
 
                 <div class="mt-15">
                     <span class="text-h5 my-2 pa-6 mx-14">Телефон</span>
@@ -77,7 +80,7 @@
 
                 <v-row class="mx-14 mt-15">
                     <v-btn 
-                        color="green-accent-4" 
+                        color="grey-darken-4" 
                         size="x-large" 
                         block
                         @click="add_client"
@@ -124,18 +127,19 @@
         data(){
             return{
                 entity: {
-                    surname: 'кто',
-                    name: '',
-                    patronymic: '',
-                    phone: '',
-                    name_of_company: '',
-                    inn: '',
+                    surname: "Мазурина",
+                        name: "Маргарита",
+                        patronymic: "Владимировна ",
+                        phone: "+78153372646", 
+                        role: "директор",
+                        name_of_company: 'МБУ Дворец культуры "Металлург"',
+                        inn: "5102050835",
                     security_objects: [
                         {
-                            town: '',
-                            street: '',
-                            house: '',
-                            frame: '1'
+                            town: 'Кандалакша',
+                            street: 'Кировская аллея',
+                            house: '1a',
+                            frame: '--'
                         }
                     ]
                 },

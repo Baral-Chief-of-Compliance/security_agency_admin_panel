@@ -8,7 +8,7 @@
                     Панель Администратора
                 </v-card-title>
                 <v-card-subtitle>
-                    вход
+                    Группа компаний "ГРАНИТ"
                 </v-card-subtitle>
                 <v-card-item>
                     <v-text-field

@@ -31,6 +31,11 @@ const routes = [
         component: ()=> import('@/components/SecurityObjectEntityDocuments.vue')
       },
       {
+        path: '/security_objects_entity/:id/trip_history',
+        name: 'SecurityObjectEntityTrips',
+        component: ()=> import('@/components/SecurityObjectEntityTrips.vue')
+      },
+      {
         path: '/security_objects_phys/:id',
         name: 'SecurityObjectPhysInf',
         component: ()=> import('@/components/SecurityObjectPhysInf.vue')
@@ -59,6 +64,11 @@ const routes = [
         path: '/entity_clients:id',
         name: 'EntityClientInf',
         component: ()=> import('@/components/EntityClientInf.vue')
+      },
+      {
+        path: '/map',
+        name: 'SecuriteObjectMap',
+        component: ()=> import('@/components/SecuriteObjectMap.vue')
       }
 
     ],

@@ -28,7 +28,7 @@
 
 
                 </div>
-                <v-row class="mx-14 mt-5">
+                <!-- <v-row class="mx-14 mt-5">
                     <v-btn 
                         color="grey-darken-4" 
                         size="x-large" 
@@ -61,7 +61,7 @@
                             </v-card>
                         </v-dialog>
                     </v-btn>
-                </v-row>
+                </v-row> -->
 
                 <div class="my-15">
                     <span class="text-h5 my-2 pa-6 mx-14">Техническая охрана</span>
@@ -84,7 +84,7 @@
 
                 </div>
 
-                <v-row class="mx-14 mt-5">
+                <!-- <v-row class="mx-14 mt-5">
                     <v-btn 
                         color="grey-darken-4" 
                         size="x-large" 
@@ -117,7 +117,7 @@
                             </v-card>
                         </v-dialog>
                     </v-btn>
-                </v-row>
+                </v-row> -->
 
             </v-col>
         </v-container>

@@ -69,8 +69,48 @@ const routes = [
         path: '/map',
         name: 'SecuriteObjectMap',
         component: ()=> import('@/components/SecuriteObjectMap.vue')
+      },
+      {
+        path: '/statistics',
+        name: 'Statistics',
+        component: ()=> import('@/components/Statistics.vue')
       }
+    ],
+  },
 
+  {
+    path: '/client',
+    component: () => import('@/layouts/default/DefaultClient.vue'),
+    children: [
+      {
+        path: '',
+        name: 'Home',
+        // route level code-splitting
+        // this generates a separate chunk (about.[hash].js) for this route
+        // which is lazy-loaded when the route is visited.
+        component: () => import(/* webpackChunkName: "home" */ '@/views/Home.vue'),
+      },
+      {
+        path: 'client/objects_of_protection',
+        name: 'ObjectsOfProtectionClient',
+        component: ()=> import('@/components/ObjectsOfProtectionClient.vue')
+
+      },
+      {
+        path: 'client/security_objects_entity/:id',
+        name: 'SecurityObjectEntityInfClient',
+        component: ()=> import('@/components/SecurityObjectEntityInfClient.vue')
+      },
+      {
+        path: 'client/security_objects_entity/:id/documents',
+        name: 'SecurityObjectEntityDocumentsClient',
+        component: ()=> import('@/components/SecurityObjectEntityDocumentsClient.vue')
+      },
+      {
+        path: 'client/security_objects_entity/:id/trip_history',
+        name: 'SecurityObjectEntityTripsClient',
+        component: ()=> import('@/components/SecurityObjectEntityTripsClient.vue')
+      },
     ],
   },
   {

@@ -58,6 +58,25 @@
     ></v-list-item>
   </v-list-group>
 
+  <v-list-group value="Statistics">
+    <template v-slot:activator="{ props }">
+      <v-list-item
+        v-bind="props"
+        prepend-icon="mdi-chart-bar"
+        title="Статистика"
+      ></v-list-item>
+    </template>
+
+    <v-list-item
+      v-for="([title, icon, to], i) in statistics"
+      :key="i"
+      :title="title"
+      :prepend-icon="icon"
+      :value="title"
+      :to="to"
+    ></v-list-item>
+  </v-list-group>
+
 </template>
 
 <script>
@@ -73,6 +92,9 @@
         ['Физ лица', 'mdi-account', '/phys_clients'],
         ['Юр лица', 'mdi-account-multiple', '/entity_clients'],
         ['Добавить', 'mdi-account-plus', '/add_client'],
+      ],
+      statistics:[
+        ['Выезды', 'mdi-car', '/statistics']
       ],
     }),
   }
